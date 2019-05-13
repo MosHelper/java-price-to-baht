@@ -214,11 +214,6 @@ public final class BahtText
         return buffer.toString();
     }
 
-    public boolean equals(Object that)
-    {
-        return this.amount.equals(((BahtText) that).amount);
-    }
-
     public static void main(String[] args) {
 
     }
